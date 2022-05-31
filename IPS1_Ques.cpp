@@ -42,7 +42,7 @@ int main()
 		     	if(x%y==0)
 			    {   
 			        temp=1;
-				    break;
+				break;
 			    }  
 		   }
 		   if(temp==0)
@@ -53,12 +53,12 @@ int main()
 	   if(z<j)
 		{  
 		    x=array[z];
-			z++;
+		    z++;
 		} 
 	   else
 		{
-		   	break;
-	    }	
+		   break;
+	        }	
    }  
    return 0;
 }
