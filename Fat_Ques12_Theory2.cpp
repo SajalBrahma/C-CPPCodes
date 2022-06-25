@@ -48,9 +48,9 @@ int main()
 	cin>>y1;
 	GenCalculator<int>obj1(x1,y1);
 	cout<<"Addition :- "<<obj1.add()<<endl;
-    cout<<"Subtraction :- "<<obj1.subtract()<<endl;
-    cout<<"Multiplication :- "<<obj1.product()<<endl;
-    cout<<"Division :- "<<obj1.divide()<<endl;
+        cout<<"Subtraction :- "<<obj1.subtract()<<endl;
+        cout<<"Multiplication :- "<<obj1.product()<<endl;
+        cout<<"Division :- "<<obj1.divide()<<endl;
     
 	float x2,y2;
 	cout<<"Enter value of x :- ";
@@ -59,9 +59,9 @@ int main()
 	cin>>y2;
 	GenCalculator<float>obj2(x2,y2);
 	cout<<"Addition :- "<<obj2.add()<<endl;
-    cout<<"Subtraction :- "<<obj2.subtract()<<endl;
-    cout<<"Multiplication :- "<<obj2.product()<<endl;
-    cout<<"Division :- "<<obj2.divide()<<endl;
+        cout<<"Subtraction :- "<<obj2.subtract()<<endl;
+        cout<<"Multiplication :- "<<obj2.product()<<endl;
+        cout<<"Division :- "<<obj2.divide()<<endl;
     
 	double x3,y3;
 	cout<<"Enter value of x :- ";
@@ -70,8 +70,8 @@ int main()
 	cin>>y3;
 	GenCalculator<double>obj3(x3,y3);
 	cout<<"Addition :- "<<obj3.add()<<endl;
-    cout<<"Subtraction :- "<<obj3.subtract()<<endl;
-    cout<<"Multiplication :- "<<obj3.product()<<endl;
-    cout<<"Division :- "<<obj3.divide()<<endl;
-    return 0;
+        cout<<"Subtraction :- "<<obj3.subtract()<<endl;
+        cout<<"Multiplication :- "<<obj3.product()<<endl;
+        cout<<"Division :- "<<obj3.divide()<<endl;
+        return 0;
 }
