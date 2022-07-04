@@ -16,13 +16,13 @@ class Admission
 		}
 		Admission(int a,int b)
 		{
-		    student = a;
-		    cash = b;
-	    }
-	    void display()
-	    {
-	    	cout<<"\n\nTotal students to pay fee :- "<<student;
-	    	cout<<"\nTotal cash to be collected :- "<<cash;
+		        student = a;
+		        cash = b;
+	        }
+	        void display()
+	        {
+	    	        cout<<"\n\nTotal students to pay fee :- "<<student;
+	    	        cout<<"\nTotal cash to be collected :- "<<cash;
 		}	
 };
 
