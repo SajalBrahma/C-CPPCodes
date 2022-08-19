@@ -37,3 +37,6 @@ int main()
 	}
 	return 0;
 }
+
+// Input = 34 8 64 51 32 21
+// Output = 8 21 32 34 51 64
