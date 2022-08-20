@@ -43,8 +43,8 @@ int main()
 				   	    if(array[max]<array[z-1])
 				   	    {
 				   	    	max=z-1;
-						}
-						z--;
+					    }
+					    z--;
 				    }
 				    j=max;
 				    printf("%d ",j+1);
