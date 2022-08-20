@@ -38,7 +38,7 @@ int main()
 				{
 				    int max=j;
 				    int z=j;
-				    while(array[i]<array[z])
+				    while(array[i]<array[z] && z>0)
 				    {
 				   	    if(array[max]<array[z-1])
 				   	    {
