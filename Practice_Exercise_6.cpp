@@ -37,6 +37,11 @@ int main()
 												count2++;
 												i=i+10;
 											}
+											else
+											{
+												count1++;
+												i=i+3;
+											}	
 										}
 										else
 										{
