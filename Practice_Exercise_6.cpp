@@ -46,31 +46,31 @@ int main()
 										else
 										{
 											count1++;
-						                    i=i+3;
+						                                        i=i+3;
 										}
 									}
 									else
 									{
 										count1++;
-						                i=i+3;	
+						                                i=i+3;	
 									}
 								}
 								else
 								{
 									count1++;
-						            i=i+3;	
+						                        i=i+3;	
 								}
 							}
 							else
 							{
 								count1++;
-						        i=i+3;
+						                i=i+3;
 							}
 						}
 						else
 						{
 							count1++;
-						    i=i+3;	
+						        i=i+3;	
 						}
 					}
 					else
