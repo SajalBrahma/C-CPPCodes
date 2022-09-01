@@ -6,7 +6,7 @@
 
 int main()
 {
-	char array[30];
+	char array[200];
 	int count1=0,count2=0;
 	printf("\nEnter the string :- ");
 	scanf("%s",&array);
