@@ -25,11 +25,11 @@ int Push()
 int Pop()
 {
 	if(top==-1)
-		printf("\nStack is empty.");
+	    printf("\nStack is empty.");
 	
 	else if(top==3)
 	{
-		printf("\nRequesting to order sack of rice to refill the stack.");
+	    printf("\nRequesting to order sack of rice to refill the stack.");
 	    return -1;
 	}
 	else
