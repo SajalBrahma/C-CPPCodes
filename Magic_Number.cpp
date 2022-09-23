@@ -50,7 +50,7 @@ int main()
 			printf("\n%d Largest Element is :- %d",k,array[k-1]);
 			printf("\nOriginal Array :- ");
 			for(int i=0;i<num;i++)
-	        printf("%d ",arr[i]);
+	                printf("%d ",arr[i]);
 			printf("\nMagic Number %d at position :- %d",array[k-1],index);
 		}
 	}
