@@ -37,7 +37,7 @@ int main()
 	{
 		if(array[i]=='(')
 		{
-			Push();
+		    Push();
 		}
 		if(array[i]==')')
 		{
