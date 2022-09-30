@@ -43,8 +43,8 @@ void insertbig(int value2)
 	else
 	{
 		newnode->data=value2;                              // initializing the data of newnode
-	    newnode->link=head;                                // storing the head node to the link of newnode
-	    head=newnode;                                      // initializing newnode as head
+	        newnode->link=head;                                // storing the head node to the link of newnode
+	        head=newnode;                                      // initializing newnode as head
 	}
 }
 
