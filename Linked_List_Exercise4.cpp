@@ -79,7 +79,6 @@ void display()
 	}
 }
 
-
 int main()
 {
 	int num,element1,element2,a;
