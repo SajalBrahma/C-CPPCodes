@@ -201,7 +201,18 @@ int main()
 			        display();
 			        break;
 			        
+			default:printf("\nWrong Choice");
+			        break;	        
 		}
 	}while(ch==1||ch==2||ch==3||ch==4||ch==5||ch==6||ch==7||ch==8);
 	return 0;
 }
+
+// Input -> 1 -> 5 -> 1 2 3 4 5 
+// Input -> 2 -> 0  --> 0 1 2 3 4 5
+// Input -> 3 -> 7,3 --> 0 1 2 3 7 4 5
+// Input -> 4 -> 6 --> 0 1 2 3 7 4 5 6
+// Input -> 5 --> 1 2 3 7 4 5 6
+// Input -> 6 -> 7 --> 1 2 3 4 5 6
+// Input -> 7 --> 1 2 3 4 5
+// Input -> 8 --> 1 2 3 4 5
