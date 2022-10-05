@@ -151,10 +151,10 @@ int main()
 			        {
 			        	scanf("%d",&element);
 			        	insert_end(element);
-					}
-					printf("\nThe elements after creation of list :- ");
-					display();
-					break;
+				}
+				printf("\nThe elements after creation of list :- ");
+				display();
+				break;
 			
 			case 2: printf("\nEnter the element to be inserted in the beginning in the list :- ");
 			        scanf("%d",&element1);
