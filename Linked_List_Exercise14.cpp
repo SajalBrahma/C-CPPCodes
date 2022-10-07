@@ -98,28 +98,28 @@ int main()
 			        {
 			        	scanf("%d",&element);
 			        	create(element);
-					}
-					printf("\nElements after insertion in the list :- ");
-					display();
-					break;
+				}
+				printf("\nElements after insertion in the list :- ");
+				display();
+				break;
 					
 			case 2: delete_beg();
 			        printf("\nElements after deletion of first element in the list :- ");
-					display();
-					break;
+				display();
+				break;
 					
 			case 3: printf("\nEnter the element to be deleted :- ");
 			        scanf("%d",&x);
 			        delete_mid(x);
 			        printf("\nElements after deletion of element in the list :- ");
-					display();
-					break;
+				display();
+				break;
 			        
 				
 		    case 4: delete_end();
 		            printf("\nElements after deletion of last element in the list :- ");
-					display();
-					break;
+				display();
+				break;
 					
 			case 5: printf("\nElements of the list :- ");
 			        display();
