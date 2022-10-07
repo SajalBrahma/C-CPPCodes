@@ -9,7 +9,7 @@ struct node
 	struct node *left;
 	int data;
 	struct node *right;
-}*head,*temp,*prev,*next,*newnode;
+}*head,*temp,*newnode;
 
 void insert_end(int value);
 void insert_mid(int value,int n);
