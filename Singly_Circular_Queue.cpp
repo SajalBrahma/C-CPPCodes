@@ -268,8 +268,8 @@ int main()
 			        
 			case 5: delete_beg();
 			        printf("\nList elements after deletion of first element from the list :- ");
-					display();
-					break;
+				display();
+			        break;
 					
 			case 6: printf("\nEnter the data to be deleted from the list :- ");
 			        scanf("%d",&val2);
