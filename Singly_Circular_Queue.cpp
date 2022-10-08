@@ -27,10 +27,10 @@ void insert_end(int value)
 		while(temp->link!=head)
 		{
 			temp=temp->link;
-	    }
-	    temp->link=newnode;
-	    newnode->link=head;
-	    temp=newnode;
+	        }
+	        temp->link=newnode;
+	        newnode->link=head;
+	        temp=newnode;
 	}
 }
 
@@ -51,10 +51,10 @@ void insert_beg(int value)
 		while(temp->link!=head)
 		{
 			temp=temp->link;
-	    }
-	    temp->link=newnode;
-	    newnode->link=head;
-	    head=newnode;
+	        }
+	        temp->link=newnode;
+	        newnode->link=head;
+	        head=newnode;
 	}
 }
 
@@ -116,9 +116,9 @@ void delete_mid(int val)
     else
     {
 	    if(head->link==head)
-        {
-    	    dnode=head;
-    	    free(dnode);
+            {
+    	            dnode=head;
+    	            free(dnode);
 	    }
 	    else
 	    {
@@ -135,12 +135,12 @@ void delete_mid(int val)
 			    }
 			    else
 			    {
-			     	prev=prev->link;
+			     	    prev=prev->link;
 				    temp=temp->link;
 			    }
 		    }
 	    }
-	}
+      }
 }
 
 void delete_end()
@@ -164,7 +164,7 @@ void delete_end()
 		    {
 			    prev=temp;
 			    temp=temp->link;
-	     	}
+	     	    }
 		    prev->link=temp->link;
 		    dnode=temp;
 		    free(dnode);
@@ -223,25 +223,25 @@ int main()
 		printf("\n3. Insert an element in the middle of the list.");
 		printf("\n4. Insert an element in the end of the list.");
 		printf("\n5. Delete an element in the beginning of the list.");
-        printf("\n6. Delete an element in the middle of the list.");
-        printf("\n7. Delete an element in the end of the list.");
-        printf("\n8. Display the list elements :- ");
-        printf("\n9. Search for element in the list.");
-        printf("\n10. Exit.");
-        printf("\nEnter your choice :- ");
-        scanf("%d",&ch);
-        switch(ch)
-        {
-        	case 1: printf("\nEnter the number of elements to be inserted in the list :- ");
-        	        scanf("%d",&num);
-        	        for(int i=0;i<num;i++)
-        	        {
-        	        	scanf("%d",&element);
-        	        	insert_end(element);
-					}
-					printf("\nList elements after creation of list :- ");
-					display();
-					break;
+                printf("\n6. Delete an element in the middle of the list.");
+                printf("\n7. Delete an element in the end of the list.");
+                printf("\n8. Display the list elements :- ");
+                printf("\n9. Search for element in the list.");
+                printf("\n10. Exit.");
+                printf("\nEnter your choice :- ");
+                scanf("%d",&ch);
+                switch(ch)
+                {
+        	       case 1: printf("\nEnter the number of elements to be inserted in the list :- ");
+        	               scanf("%d",&num);
+        	               for(int i=0;i<num;i++)
+        	               {
+        	        	     scanf("%d",&element);
+        	        	     insert_end(element);
+		                }
+			        printf("\nList elements after creation of list :- ");
+			        display();
+			        break;
 					
 			case 2: printf("\nEnter the element to be inserted in the beginning of the list :- ");
 			        scanf("%d",&element1);
@@ -275,13 +275,13 @@ int main()
 			        scanf("%d",&val2);
 			        delete_mid(val2);
 			        printf("\nList elements after deletion of middle element from the list :- ");
-					display();
-					break;
+				display();
+				break;
 					
 			case 7: delete_end();
 			        printf("\nList elements after deletion of last element from the list :- ");
-					display();
-					break;
+				display();
+				break;
 				
 			case 8: printf("\nList elements :- ");
 			        display();
