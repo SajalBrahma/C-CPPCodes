@@ -194,7 +194,7 @@ void search(int val)
 {
 	temp=head;
 	int flag=0;
-	while(temp!=head)
+	while(temp->link!=head)
 	{
 		if(temp->data==val)
 		{
@@ -206,6 +206,11 @@ void search(int val)
 		{
 			temp=temp->link;
 		}
+	}
+	if(temp->data==val)
+	{
+		flag=1;
+		printf("\nElement Found");
 	}
 	if(flag==0)
 	{
