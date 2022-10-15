@@ -31,10 +31,10 @@ void create(int value)
 		while(temp->link!=head)
 		{
 			temp=temp->link;
-	    }
-	    temp->link=newnode;
-	    newnode->link=head;
-	    temp=newnode;
+	        }
+	        temp->link=newnode;
+	        newnode->link=head;
+	        temp=newnode;
 	}
 }
 
