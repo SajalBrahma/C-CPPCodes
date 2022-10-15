@@ -49,13 +49,13 @@ void sort()
 		{
 			flag=0;
 			temp=head;
-		    while(temp->right!=ptr)
-		    {
+		        while(temp->right!=ptr)
+		        {
 			    if(temp->data>temp->right->data)
 			    {
 				    value=temp->data;
 				    temp->data=temp->right->data;
-			    	temp->right->data=value;
+			    	    temp->right->data=value;
 				    flag=1;
 			    }
 			temp=temp->right;
