@@ -71,20 +71,22 @@ int main()
 {
 	struct node *root=NULL;
 	root = insert(root, 8);
-    root = insert(root, 3);
-    root = insert(root, 1);
-    root = insert(root, 6);
-    root = insert(root, 7);
-    root = insert(root, 10);
-    root = insert(root, 14);
-    root = insert(root, 4);
-    printf("Inorder Traversal :- ");
-    inorder(root);
-    printf("\nPreorder Traversal :- ");
-    preorder(root);
-    printf("\nPostorder Traversal :- ");
-    postorder(root);
-    return 0;
+        root = insert(root, 3);
+        root = insert(root, 1);
+        root = insert(root, 6);
+        root = insert(root, 7);
+        root = insert(root, 10);
+        root = insert(root, 14);
+        root = insert(root, 4);
+        printf("Inorder Traversal :- ");
+        inorder(root);
+        printf("\nPreorder Traversal :- ");
+        preorder(root);
+        printf("\nPostorder Traversal :- ");
+       postorder(root);
+       return 0;
 }
 
-
+// Inorder Traversal :- 1 3 4 6 7 8 10 14
+// Preorder Traversal :- 8 3 1 6 4 7 10 14
+// Postorder Traversal :- 1 4 7 6 3 14 10 8
