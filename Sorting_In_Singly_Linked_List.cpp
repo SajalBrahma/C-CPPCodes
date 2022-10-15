@@ -43,13 +43,13 @@ void sort()
 		{
 			flag=0;
 			temp=head;
-		    while(temp->link!=ptr)
-		    {
+		        while(temp->link!=ptr)
+		        {
 			    if(temp->data>temp->link->data)
 			    {
 				    value=temp->data;
 				    temp->data=temp->link->data;
-			    	temp->link->data=value;
+			    	    temp->link->data=value;
 				    flag=1;
 			    }
 			temp=temp->link;
