@@ -62,5 +62,5 @@ int main()
 	return 0;	
 }
 
-// Input -> 6 -> 2 6 3 7 5 4
+// Input -> 6 -> 2 6 3 7 5 4 -> 12
 // Output -> 2 6 , 3 4
