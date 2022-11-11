@@ -32,7 +32,6 @@ void Depth_FS(int adj[][5],int visited[],int start_ver)
 
 int main()
 {
-	int value;
 	printf("Enter the number of vertices :- ");
 	scanf("%d",&num);
 	printf("Enter the details in the adjancncy matrix [%d x %d] :- \n",num,num);
@@ -46,5 +45,11 @@ int main()
 	printf("\nThe Depth First Search is :- ");
 	Depth_FS(adj_matrix,visited,0);
 }
+
+// 0 1 0 1 0
+// 1 0 1 1 0
+// 0 1 0 0 1
+// 1 1 0 0 1
+// 0 0 1 1 0
 
 // Output -> A -> B -> C -> E -> D
