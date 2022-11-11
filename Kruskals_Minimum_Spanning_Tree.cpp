@@ -69,7 +69,7 @@ void sort(struct Edge **ptr,int edge)
 				temp->source=ptr[j]->source;
 				temp->dest=ptr[j]->dest;
 				temp->dist=ptr[j]->dist;
-			    ptr[j]->source=ptr[j+1]->source;
+			        ptr[j]->source=ptr[j+1]->source;
 				ptr[j]->dest=ptr[j+1]->dest;
 				ptr[j]->dist=ptr[j+1]->dist;
 				ptr[j+1]->source=temp->source;
@@ -99,7 +99,7 @@ int main()
 	scanf("%d",&edge);
 	for(int i=0;i<edge;i++)
 	{
-	    E[i]=(struct Edge*)malloc(sizeof(struct Edge));
+	        E[i]=(struct Edge*)malloc(sizeof(struct Edge));
 		printf("\nEdge %d ",i+1);
 		printf("\nEnter source vertex :- ");
 		scanf("%d",&E[i]->source);
