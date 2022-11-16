@@ -53,4 +53,4 @@ int main()
 // 1 1 0 0 1
 // 0 0 1 1 0
 
-// Output -> A -> B -> C -> D -> E
+// Output -> A -> B -> D -> C -> E
