@@ -75,7 +75,7 @@ void Calculate_reverse_sum(struct node *H1,struct node*H2)
 	{
 		if(a[z]==0)
 		a[z]=1;
-        else if(a[z]==1)
+                else if(a[z]==1)
 		a[z]=2;
 		else if(a[z]==2)
 		a[z]=3;
@@ -210,18 +210,18 @@ int main()
 		if(i==0)
 		{
 			for(int x=j-1;x>=0;x--)
-		    {
-		    	//printf("%d -> ",arr[x]);
+		        {
+		    	    //printf("%d -> ",arr[x]);
 			    head1=insert(head1,arr[x]);
-		    }
+		        }
 		}
 		if(i==1)
 		{
 			for(int x=j-1;x>=0;x--)
-		    {
-		    	//printf("%d -> ",arr[x]);
-		     	head2=insert(head2,arr[x]);
-		    }
+		        {
+		    	    //printf("%d -> ",arr[x]);
+		     	    head2=insert(head2,arr[x]);
+		        }
 		}
 		printf("\n");
 	}
