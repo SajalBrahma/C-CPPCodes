@@ -20,7 +20,7 @@ int main()
 		{
 			if(i>=r)
 			{
-				temp=i-r;
+			    temp=i-r;
 			    if(temp%s==0)
 			    {
 				   cout<<i<<endl;
